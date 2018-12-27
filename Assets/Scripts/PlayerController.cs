@@ -12,17 +12,15 @@ public class PlayerController : MonoBehaviour {
     protected float currentSpeed = 0.0f;
 
     private Rigidbody2D rb2d;
-    private Animator animator;
     private SpriteRenderer spriteRenderer;
     private Vector2 direction = new Vector2(0, 1);
 
     // Use this for initialization
-    void Start () {
+    void Awake () {
         rb2d = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
-    
+
     // Update is called once per frame
     void Update () {
         bool accelerate = Input.GetKey("w");
@@ -90,5 +88,8 @@ public class PlayerController : MonoBehaviour {
         }
 
         rb2d.position = rb2d.position + direction * currentSpeed * Time.deltaTime;
+
+        Camera.main.transform.position = new Vector3(transform.position.x, transform.position.y, Camera.main.transform.position.z);
+
     }
 }

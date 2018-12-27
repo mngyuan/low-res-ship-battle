@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 8d62181a228454fe3a673e681aa896f1
+  productGUID: 4738a4c9c34b246fb9e31ef1511c1af0
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: low res ship battle
+  productName: tmp
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -619,8 +619,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 193d3f92-b1ab-4474-bfd8-6ab6b5dd10ab
-  projectName: low res ship battle
+  cloudProjectId: 25e16057-4438-4b6a-af2a-af5855b6e5eb
+  projectName: tmp
   organizationId: kevin-lee-1712363
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
